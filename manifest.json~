@@ -1,0 +1,27 @@
+{
+    "name": " Dev Meeting extension for Gmail",
+    "short_name": "Dev Meeting",
+    "description": "Dev Meeting for Gmail",
+    "version": "0.0.1",
+
+    "browser_action": {
+        "default_icon": "icons/Rubik's_cube.svg.png",
+        "default_popup": "templates/index.html"
+    },
+    "options_page": "templates/options.html",
+    "content_scripts": [{
+        "matches": ["https://mail.google.com/*"],
+        "js": ["app/content.js"],
+        "run_at": "document_end",
+        "all_frames": false
+    }],
+
+    "icons": { "128": "icons/Rubik's_cube.svg.png" },
+
+    "web_accessible_resources": [
+        "lib/*.js",
+        "app/*.js",
+        "css/*.css"
+    ],
+    "manifest_version": 2
+}

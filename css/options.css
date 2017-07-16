@@ -1,0 +1,13 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: #edf0f5;
+    color: #3f51b5;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 30px;
+}
+
+#upcoming {
+    margin-top: 100px;
+    margin-left: 100px;
+}

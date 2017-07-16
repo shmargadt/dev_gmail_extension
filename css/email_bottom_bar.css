@@ -1,0 +1,254 @@
+#extension-modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+}
+
+#invitation-link-window-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #222e60;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+#invitation-link-window {
+  background: white;
+  width: 570px;
+  position: absolute;
+  height: 320px;
+  z-index: 10000000;
+  left: 50%;
+  top: 40%;
+  opacity: 1;
+  transform: translate(-50%, -40%);
+  text-align: center;
+}
+
+#extension-modal-x-icon {
+  float: right;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.extension-modal-header {
+  background: #D1D5ED;
+  color: #3f51b5;
+  height: 50px;
+}
+#eantgage-extension-logo {
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.invitation-link-window-text-container{
+  font-weight: 500;
+  height: 100%;
+  width: 550px;
+  font-size: 17px;
+  text-align: left;
+  float: left;
+  line-height: 50px;
+  background: #D1D5ED;
+  color: #3f51b5;
+
+}
+.invitation-link-window-text {
+  float: left;
+}
+
+.click-copy {
+    float: right;
+    color: white;
+    background: #3f51b5;
+    padding: 4px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#extension-cancel-modal-btn {
+      background: #D1D5ED;
+    float: right;
+    color: #3f51b5;
+    padding: 4px 15px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-right: 17px;  
+}
+
+.invitation-link-window-inputs-container {
+     background: #D1D5ED;
+     display: flex;
+     height: 40px;
+     padding-left: 40px;
+}
+.invitation-link-window-inputs {
+    display: flex;
+    margin-left: 32px;
+}
+.invitation-link-window-field-inputs{
+    margin-left: 0px;
+    display: flex;
+}
+
+.food {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.invitation-link-window-field-title {
+    text-align: left;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.invitation-link-window-input-field-title {
+    text-align: left;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.food-n-scheduling-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.invitation-link-window-field-input {
+    width: 40px;
+    margin-left: 10px;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #3f51b5;
+}
+#extension-name-input {
+    width: 120px;
+    text-align: left;
+    padding-left: 2px;
+}
+
+
+.checkbox-default-full {
+    visibility: visible;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+
+.checkbox-full {
+    visibility: hidden;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+
+.extension-validtions-errors-container {
+    height: 22px;
+    width: 100%;
+}
+#extension-validtions-error-container {
+   height: 100%;
+   width: 200px;
+   float: right;
+   line-height: 30px;
+   display: flex;
+   flex-direction: row; 
+   visibility: hidden;
+}
+
+.extension-btns-container{
+    height: 50px;
+    font-size: 12px;
+    margin-right: 15px;
+    margin-top: 15px;
+
+}
+
+.invitation-link-window-food-checkbox {
+    display: -webkit-box;
+    width: 250px;
+    height: 20px;
+    float: left;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+
+.invitation-link-food-type-check-box {
+    width: 15px;
+    height: 15px;
+    border: #3f51b5 solid 1px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.selected {
+    background-image: image-url('checkbox_square_filled.png');
+}
+
+#meal-delivery-checkbox{
+    opacity: 0.5;
+}
+#restaurant-ecard-checkbox{
+    opacity: 0.5;
+}
+#restaurant-ecard-n-meal-delivery-checkbox{
+    opacity: 1;
+}
+#no-meal-checkbox{
+    opacity: 0.5;
+}
+#open-scheduling-checkbox{
+    opacity: 1;
+}
+#time-picker-container {
+    opacity: 0.5;
+}
+.invitation-link-window-food-checkbox-text {
+    padding-left: 7px;
+    line-height: 20px;
+}
+
+#time-picker-container {
+    width: 250px;
+    height: 20px;
+    float: left;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+#extension-validtions-error-icon {
+    height: 22px;
+    width: 22px;
+}
+
+#extension-validtions-error-value {
+    color: red;
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 26px;
+}
+
+.col-sm-6 {
+    width: 20% !important;
+}
