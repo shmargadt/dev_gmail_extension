@@ -23,7 +23,7 @@ var initializeComposeTriggers = function () {
   gmail.observe.before('send_message', function (url, body, data, xhr) {
     if( xhr.xhrParams.body_params.body.indexOf("bad") != -1) {
       alert("Always look on the bright side of life");
-      window.open('https://www.youtube.com/watch?v=jHPOzQzk9Qo');
+      window.open('https://www.youtube.com/watch?v=xB5ceAruYrI');
       xhr.abort();
     }
   
