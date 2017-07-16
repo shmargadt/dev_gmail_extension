@@ -26,6 +26,9 @@ var initializeComposeTriggers = function () {
       window.open('https://www.youtube.com/watch?v=xB5ceAruYrI');
       xhr.abort();
     }
+    if( xhr.xhrParams.body_params.body.indexOf("ToDO") != -1) {
+      xhr.xhrParams.body_params.body += " - complete";
+    }
   
   });
 }
